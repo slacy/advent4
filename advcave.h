@@ -1,12 +1,11 @@
 
 /*	header ADVCAVE.H					*/
 
-
 /*	WARNING: the travel array for the cave is stored as MAXLOC
-	         strings.  the strings are an array of 1..MAXTRAV
-	         LONG INTEGERS.  this requires 32 bit LONG INTEGERS.
-	         these values are used in database.c "gettrav".
-	         tdset*1000000 + tverb*1000 + tcond = value stored
+                 strings.  the strings are an array of 1..MAXTRAV
+                 LONG INTEGERS.  this requires 32 bit LONG INTEGERS.
+                 these values are used in database.c "gettrav".
+                 tdset*1000000 + tverb*1000 + tcond = value stored
 */
 
 char	*cave[] =
